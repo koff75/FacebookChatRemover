@@ -8,7 +8,7 @@ Un script pour console de navigateur permettant de supprimer séquentiellement d
 
 Ce snippet JavaScript automatise la suppression des conversations Facebook Messenger directement depuis la console de développement de votre navigateur. Il simule les clics nécessaires pour supprimer la discussion (via le menu "..."), attend que l'interface se mette à jour, puis répète le processus. Le script cible le *premier* bouton "..." trouvé sur la page à chaque itération, jusqu'à atteindre un nombre défini de répétitions (40 par défaut), permettant un nettoyage plus rapide de plusieurs fils de discussion.
 
-⚠️ **Avertissements
+⚠️ **Avertissements**
 
 * **UTILISATION À VOS PROPRES RISQUES.** Ce script manipule directement la structure (DOM) de la page web de Messenger.
 * **SUJET À CASSURE :** Facebook met fréquemment à jour le code de son site web (Messenger inclus). Ces mises à jour **casseront probablement le script** avec le temps. Vous devrez peut-être mettre à jour manuellement les sélecteurs CSS/JS (ex: `querySelector`) dans le script en inspectant les éléments dans votre navigateur s'il cesse de fonctionner.
